@@ -60,11 +60,11 @@
     
                 <div class="flex items-center gap-3">
                     <span class="text-blue-500 font-bold flex items-center mr-2">FOLLOW US</span>
-                    <img class="h-8" src="{{asset('assets/img/footer-facebook.png')}}" alt="">
-                    <img class="h-8" src="{{asset('assets/img/footer-periscope.png')}}" alt="">
-                    <img class="h-8" src="{{asset('assets/img/footer-pinterest.png')}}" alt="">
-                    <img class="h-8" src="{{asset('assets/img/footer-twitter.png')}}" alt="">
-                    <img class="h-8" src="{{asset('assets/img/footer-youtube.png')}}" alt="">
+                    <a class="hover:scale-102 transition-all" href="#"><img class="h-8" src="{{asset('assets/img/footer-facebook.png')}}" alt=""></a>
+                    <a class="hover:scale-102 transition-all" href="#"><img class="h-8" src="{{asset('assets/img/footer-periscope.png')}}" alt=""></a>
+                    <a class="hover:scale-102 transition-all" href="#"><img class="h-8" src="{{asset('assets/img/footer-pinterest.png')}}" alt=""></a>
+                    <a class="hover:scale-102 transition-all" href="#"><img class="h-8" src="{{asset('assets/img/footer-twitter.png')}}" alt=""></a>
+                    <a class="hover:scale-102 transition-all" href="#"><img class="h-8" src="{{asset('assets/img/footer-youtube.png')}}" alt=""></a>
                 </div>
 
             </div>
