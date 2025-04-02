@@ -58,8 +58,13 @@
                     <a class="uppercase text-white px-4 py-2 block" href="/signup">sign up now!</a>
                 </div>
     
-                <div>
-                    ciao
+                <div class="flex items-center gap-3">
+                    <span class="text-blue-500 font-bold flex items-center mr-2">FOLLOW US</span>
+                    <img class="h-8" src="{{asset('assets/img/footer-facebook.png')}}" alt="">
+                    <img class="h-8" src="{{asset('assets/img/footer-periscope.png')}}" alt="">
+                    <img class="h-8" src="{{asset('assets/img/footer-pinterest.png')}}" alt="">
+                    <img class="h-8" src="{{asset('assets/img/footer-twitter.png')}}" alt="">
+                    <img class="h-8" src="{{asset('assets/img/footer-youtube.png')}}" alt="">
                 </div>
 
             </div>
