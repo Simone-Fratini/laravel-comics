@@ -4,9 +4,10 @@
 
 @section('main')
     
-    <main>
-        <div>
-
+    <main >
+        <div class="w-full h-96 overflow-hidden">
+        <div class="w-full">
+            <img class="w-full" src="{{asset('assets/img/jumbotron.jpg')}}" alt="">
         </div>
         <div class="container mx-auto bg-amber-600">
             <div class="">

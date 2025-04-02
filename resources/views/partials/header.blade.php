@@ -1,9 +1,9 @@
-<header class="bg-gray-600 w-full flex justify-center">
-    <div class="container bg-amber-300 text-white h-20 flex items-center">
+<header class="w-full flex justify-center">
+    <div class="container text-white h-20 flex items-center">
         <div class="flex justify-between w-full">
             
             <div class="">
-                <div>ciao</div>
+                <img class="h-15 aspect-square" src="{{asset('assets/img/dc-logo.png')}}" alt="logo">
             </div>
     
             <nav class="flex items-center">
