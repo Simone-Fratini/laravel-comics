@@ -6,17 +6,41 @@
     
     <main >
         <div class="w-full h-96 overflow-hidden">
-        <div class="w-full">
-            <img class="w-full" src="{{asset('assets/img/jumbotron.jpg')}}" alt="">
+            <div class="w-full h-full">
+                <img class="w-full h-full object-cover" src="{{asset('assets/img/jumbotron.jpg')}}" alt="">
+            </div>
         </div>
-        <div class="container mx-auto bg-amber-600">
-            <div class="">
+        <div class="">
+            <div class="bg-amber-600">
                 <section>
                     CURRENT SERIES
                 </section>
     
-                <section>
-                    BANNER
+                <section class="bg-[#4f82f0] h-30">
+                    <div class="flex items-center h-full">
+                        <div class="container mx-auto flex justify-between">
+                            <div class="flex items-center gap-3">
+                                <img class="h-14" src="{{asset('assets/img/buy-comics-digital-comics.png')}}" alt="">
+                                <span class="text-white">DIGITAL COMICS</span>
+                            </div>
+                            <div class="flex items-center gap-3">
+                                <img class="h-14" src="{{asset('assets/img/buy-comics-merchandise.png')}}" alt="">
+                                <span class="text-white">DC MERCHANDISE</span>
+                            </div>
+                            <div class="flex items-center gap-3">
+                                <img class="h-14" src="{{asset('assets/img/buy-comics-digital-comics.png')}}" alt="">
+                                <span class="text-white">SUBSCRIPTION</span>
+                            </div>
+                            <div class="flex items-center gap-3">
+                                <img class="h-14" src="{{asset('assets/img/buy-comics-shop-locator.png')}}" alt="">
+                                <span class="text-white">COMIC SHOP LOCATOR</span>
+                            </div>
+                            <div class="flex items-center gap-3">
+                                <img class="h-12" src="{{asset('assets/img/buy-dc-power-visa.svg')}}" alt="">
+                                <span class="text-white">DC POWER VISA</span>
+                            </div>
+                        </div>
+                    </div>
                 </section>
             </div>
         </div>
