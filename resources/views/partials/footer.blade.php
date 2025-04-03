@@ -1,6 +1,6 @@
 <footer>
     <div class="w-full flex justify-center" style="background-image: url({{asset('assets/img/footer-bg.jpg')}})">
-        <div class="container flex pt-10 pb-10">
+        <div class="container flex pt-10 pb-10 overflow-hidden">
             <div class="flex flex-col gap-4">
                 <div class="uppercase font-bold text-xl text-gray-200">dc comics</div>
                 <ul class="text-gray-500">
@@ -46,6 +46,11 @@
                     <li><a href="#">DC Universe</a></li>
                     <li><a href="#">DC Power Visa</a></li>
                 </ul>
+            </div>
+            <div class="relative w-full z-0">
+                <div class="absolute right-2 top-[-140px]">
+                    <img class=" h-[35rem] aspect-square " src="{{asset('assets/img/dc-logo-bg.png')}}" alt="">
+                </div>
             </div>
         </div>
 

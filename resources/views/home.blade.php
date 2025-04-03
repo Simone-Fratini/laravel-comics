@@ -36,7 +36,7 @@
                     </div>
                 </section>
     
-                <section class="bg-[#4f82f0] h-35">
+                <section class="bg-[#4f82f0] h-35 z-20">
                     <div class="flex items-center h-full">
                         <div class="container mx-auto flex justify-between">
                             <div class="flex items-center gap-3">
@@ -61,6 +61,7 @@
                             </div>
                         </div>
                     </div>
+                    
                 </section>
             </div>
         </div>
