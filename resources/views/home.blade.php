@@ -8,9 +8,9 @@
 @section('main')
     
     <main >
-        <div class="w-full h-96 overflow-hidden">
+        <div class="w-full h-100 overflow-hidden">
             <div class="w-full h-full">
-                <img class="w-full h-full object-cover" src="{{asset('assets/img/jumbotron.jpg')}}" alt="">
+                <img class="w-full h-full object-cover object-[center_5%]" src="{{asset('assets/img/jumbotron.jpg')}}" alt="">
             </div>
         </div>
         <div class="">
