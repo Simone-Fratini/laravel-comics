@@ -1,3 +1,6 @@
+@php
+    $comics = config("comics");
+@endphp
 @extends('layouts.master')
 
 
@@ -12,8 +15,17 @@
         </div>
         <div class="">
             <div class="bg-amber-600">
-                <section>
-                    CURRENT SERIES
+                
+                <section class="py-12 bg-[#1c1c1c]">
+                    <div class="container mx-auto grid grid-cols-6">
+                        @foreach ($comics as $comic)
+                            <x-card>
+                                <x-slot:img>{{ $comic['thumb']}}</x-slot>
+                                <x-slot:title>{{ $comic['title']}}</x-slot>
+                            </x-card>
+                        @endforeach
+                        
+                    </div>
                 </section>
     
                 <section class="bg-[#4f82f0] h-30">
